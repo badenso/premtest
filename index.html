@@ -7,17 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>CS2 Premier Ban/Pick</h1>
-    <p>Click on a map to ban or pick it.</p>
-    <div class="map-container" id="maps">
-        <div class="map" onclick="banPick(this)">Mirage</div>
-        <div class="map" onclick="banPick(this)">Inferno</div>
-        <div class="map" onclick="banPick(this)">Overpass</div>
-        <div class="map" onclick="banPick(this)">Nuke</div>
-        <div class="map" onclick="banPick(this)">Vertigo</div>
-        <div class="map" onclick="banPick(this)">Ancient</div>
-        <div class="map" onclick="banPick(this)">Anubis</div>
+    <h1>CS2 Premier Ban/Pick Phase</h1>
+    <div id="map-container">
+        <!-- Map buttons -->
     </div>
+    <div id="selected-map"></div>
+    <button id="reset-button">Reset</button>
+    
     <script src="script.js"></script>
 </body>
 </html>
