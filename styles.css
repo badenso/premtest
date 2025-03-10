@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.map {
+    margin: 10px;
+    padding: 20px;
+    background: #444;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.map:hover {
+    background: #555;
+}
+
+.banned {
+    background: red !important;
+    cursor: not-allowed;
+}
+
+.picked {
+    background: green !important;
+    cursor: not-allowed;
+}
